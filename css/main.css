@@ -1,0 +1,75 @@
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-container{
+    width: 369px;
+}
+
+.video-container:hover{
+    margin-top: 15px;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.image-container{
+    width: 100%;
+    height: 210px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.description{
+    display: flex;
+}
+
+.channel-profile{
+    width: 45px;
+    height: 134px;
+    padding-top: 12px;
+}
+
+.channel-profile-picture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;    
+}
+
+.channel-detail{
+    width: 100%;
+}
+
+.channel-title{
+    width: 98%;
+    height: 40px;
+    padding-top: 12px;
+    padding-left: 6px;
+}
+
+.title{
+    color: white;
+}
+
+
+.channel-names{
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.views{
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.hastage{
+    color: rgb(75, 149, 174);
+}

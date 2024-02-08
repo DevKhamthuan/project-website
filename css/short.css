@@ -1,0 +1,52 @@
+.short-section{
+    height: 540px;
+}
+
+.short-logo{
+    width: 7rem;
+}
+
+.x-button{
+    width: 3rem;
+}
+
+
+.short-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.short-video-section{
+    width: 100%;
+    height: 490px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.short-video{
+    width: 13.5rem;
+    height: 490px;
+}
+
+.short-thumbnail{
+    background-color: lightskyblue;
+    height: 384px;
+    border-radius: 10px;
+}
+
+
+.shot-title{
+    color: white;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.short-views{
+    margin-top: 7px;
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+}
